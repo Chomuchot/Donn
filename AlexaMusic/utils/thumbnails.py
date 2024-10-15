@@ -146,15 +146,6 @@ async def gen_thumb(videoid, user_id, theme):
                 fill="red",
                 font=font,
             )
-            text_w, text_h = draw.textsize(
-                f"Alexa Music", font=arial
-            )
-            draw.text(
-                ((1280 - text_w) / 2, 80),
-                f"Alexa Music",
-                fill="green",
-                font=arial,
-            )
             if para[0]:
                 text_w, text_h = draw.textsize(f"{para[0]}", font=font)
                 draw.text(
@@ -163,26 +154,7 @@ async def gen_thumb(videoid, user_id, theme):
                     fill="yellow",
                     stroke_width=1,
                     stroke_fill="black",
-                    font=font,
-                )
-            if para[1]:
-                text_w, text_h = draw.textsize(f"{para[1]}", font=font)
-                draw.text(
-                    ((1280 - text_w) / 2, 600),
-                    f"{para[1]}",
-                    fill="white",
-                    stroke_width=1,
-                    stroke_fill="black",
-                    font=font,
-                )
-        except:
-            pass
-        text_w, text_h = draw.textsize(f"YouTube: Jankari Ki Duniya", font=arial)
-        draw.text(
-            ((1280 - text_w) / 2, 620),
-            f"YouTube: Jankari Ki Duniya",
-            fill="white",
-            font=arial,
+                    font=font,                
         )
         text_w, text_h = draw.textsize(f"Duration: {duration} Mins", font=arial)
         draw.text(
@@ -305,15 +277,6 @@ async def gen_qthumb(videoid, user_id, theme):
                 fill="red",
                 font=font,
             )
-            text_w, text_h = draw.textsize(
-                f"Alexa Music", font=arial
-            )
-            draw.text(
-                ((1280 - text_w) / 2, 80),
-                f"Alexa Music",
-                fill="green",
-                font=arial,
-            )
             if para[0]:
                 text_w, text_h = draw.textsize(f"{para[0]}", font=font)
                 draw.text(
@@ -323,25 +286,6 @@ async def gen_qthumb(videoid, user_id, theme):
                     stroke_width=1,
                     stroke_fill="black",
                     font=font,
-                )
-            if para[1]:
-                text_w, text_h = draw.textsize(f"{para[1]}", font=font)
-                draw.text(
-                    ((1280 - text_w) / 2, 600),
-                    f"{para[1]}",
-                    fill="white",
-                    stroke_width=1,
-                    stroke_fill="black",
-                    font=font,
-                )
-        except:
-            pass
-        text_w, text_h = draw.textsize(f"YouTube: Jankari Ki Duniya", font=arial)
-        draw.text(
-            ((1280 - text_w) / 2, 620),
-            f"YouTube: Jankari Ki Duniya",
-            fill="white",
-            font=arial,
         )
         text_w, text_h = draw.textsize(f"Duration: {duration} Mins", font=arial)
         draw.text(
