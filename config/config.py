@@ -18,38 +18,38 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "28178139"))
-API_HASH = getenv("API_HASH", "85172511f45230b7f8bb304f5ed8e6d8")
+API_ID = int(getenv("API_ID", "27018175"))
+API_HASH = getenv("API_HASH", "9726271ce98f126cebea0d4758edc88d")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "6541753178:AAHuw9cf5CvfBa4yVlPvlDXx675fNqibLoM")
+BOT_TOKEN = getenv("BOT_TOKEN", "6823089678:AAGg4ObgffxnA9ysxW2PXxVYrZRi3fiOOQo")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Lucky:Lucky@atlascluster.f7lck9c.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://chomuchot:marin@akuma.6zp9apt.mongodb.net/?retryWrites=true&w=majority&appName=Akuma")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001963452122"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001985818611")
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Lucky Music")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "˹ 𝐌ᴀʀɪɴ 𝐀ᴋᴜᴍᴀ ✘ 𝐌ᴜꜱɪᴄ ˼")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "5247304559").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5161733380").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-BOT_ID = getenv("BOT_ID", "6541753178")
+BOT_ID = getenv("BOT_ID", "6823089678")
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/L2LUCKY/ZiddiMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Chomuchot/Donn")
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/LuckyXUpdate")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/akuma_network")
 
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/LuckyXSupport")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/akuma_bot_support")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
@@ -86,7 +86,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "BQGt9tsAbo5pg93xYjpYZQt3V0jBiw_4A18S7bmdcSzcuiFi96egm-CyGvKzDQ2wH6losYr0ia8GX92aPAnvMUq7zAoeyNacsxi_BHYRGg7lYcpD0SxtFjYI-HASkU-r1JVBZslCKBJyfIKyuN9IvFvLUs5ZRBxAwyTmxDSPTcya7zo1ydfxNVI1in-O-fYly_irEMLB8UonilnpV1ketPp8h26LgFz-iDJHpTsLB0Y6j9hN6qat4BPkT9z9_I_4SX1FT-iOahJX4pdz7Wxav8frS7ltRyZ2Yo-9JecC_Q8CHIxzp-7mHIUKLPd3NdJEaLvuGs6HoEe1Ag0mMtQN34Ass3txdgAAAAFlP-m7AA")
+STRING1 = getenv("STRING_SESSION", "BQGcQ78ApHRQydE8wCvcIEQW6EkzHZ89T39MablonNII0yXqczniWbaXslG3Zla1DOAZK9PZVg7x5HPRguHseZV5qmPJGD2edXgHrNkP8xcNyBBjvdnaDx4F3kkEZlfK7BE9tBXmHBkoP4wrYaYwfKG6qgqWD2LOzBXGh4XoJGhqvz2M3D_g5strtW2_P66v5OUCMlEqim7d-9FAtW57VKbYMmS-zTd7vqJvfJlaJ2tlJKJ4RP2yiFIYKdeaODzZekcrq97-Q9Vl_nVlfhun3Xo5nQVsyrOF8ntYMrMBpl2um8TYY4m4nkA9HyjgaV0yY7a0FDcxr-DCXzvVxKX3ke4qdQy0iAAAAAHT4YAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
